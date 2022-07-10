@@ -10,17 +10,17 @@
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .left-section {
-    grid-column: span 2;
+    grid-column: span 2.5;
     height: 100%;
-    background-color: #1D3557;
+    background-color: #004A85;
 }
 
 .right-section {
-    grid-column: span 5;
+    grid-column: span 4;
     height: 100%;
     background-color: #457B9D;
     border-radius: 0px 60px 0px 0px;
@@ -30,61 +30,79 @@
     padding: 2rem 2rem;
 }
 
-.profile {
-    width: 100%;
-    border-bottom: 2px solid #eeeeee;
+.linha-separaçao {
+    width: 90%;
+    border-bottom: 1px solid #F2F2F2;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    
 }
 
 .profile .profile-image {
-    width: 80%;
+    width: 25rem;
+    height: 25rem;
     border-radius: 100%;
     margin: 2.5em;
-
 }
 
 .name {
-    color: #D6DBDF;
-    font-size: 30px;
+    color: #F26457;
+    font-size: 2em;
+    font-weight:bold;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    
 }
 
 .profession {
-    color: #eeeeee;
-    font-size: 20px;
-    text-transform: uppercase;
+    color: #F2F2F2;
+    font-size: 1.5rem;
     text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
-.left-title {
-    color: #eeeeee;
-    font-size: 20px;
-}
-
-.contact-info ul {
-    padding-top: 1.5rem;
+.left-title-contato {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #F26457;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    
 }
 
 .contact-info ul li,
 .references ul li {
+    margin-left: 5%;
     padding: .4rem 0;
     color: #eeeeee;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
 }
 
-.skills ul {
-    padding-top: 1.5rem;
+.left-title-skills {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #F26457;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
 }
 .skills ul li p {
+    margin-left: 5%;
     padding: .4rem 0;
     color: #eeeeee;
+    padding-bottom: 2%;
+}
+.skills {
+    padding-bottom: 5%;
 }
 
 .right-section-contents {

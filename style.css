@@ -14,7 +14,7 @@
 }
 
 .left-section {
-    grid-column: span 1.5;
+
     height: 100%;
     background-color: #004A85;
 }
@@ -30,13 +30,12 @@
     padding: 2rem 2rem;
 }
 
-.left-linha-separaçao {
+
     width: 90%;
     border-bottom: 1px solid #F2F2F2;
     margin-left: 5%;
     padding-bottom: 5%;
 
-}
 
 .profile .profile-image {
     width: 25rem;
@@ -48,10 +47,6 @@
 .name {
     color: #F26457;
     font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
 
 }
 
@@ -99,9 +94,6 @@
 .skills ul li p {
     margin-left: 5%;
     padding: .4rem 0;
-    color: #F2F2F2;
-    padding-bottom: 2%;
-}
 
 .skills {
     padding-bottom: 5%;

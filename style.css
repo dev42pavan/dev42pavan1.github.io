@@ -7,14 +7,14 @@
 
 .resume-contents {
     min-height: 100vh;
-    width: 80%;
+    width: 90%;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
 .left-section {
-    grid-column: span 2.5;
+    grid-column: span 1.5;
     height: 100%;
     background-color: #004A85;
 }
@@ -22,20 +22,20 @@
 .right-section {
     grid-column: span 4;
     height: 100%;
-    background-color: #457B9D;
+    background-image: linear-gradient(to left, #f08177, #65bcf1 );
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
+.left-section-contents {
     padding: 2rem 2rem;
 }
 
-.linha-separaçao {
+.left-linha-separaçao {
     width: 90%;
     border-bottom: 1px solid #F2F2F2;
     margin-left: 5%;
     padding-bottom: 5%;
-    
+
 }
 
 .profile .profile-image {
@@ -48,11 +48,11 @@
 .name {
     color: #F26457;
     font-size: 2em;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    
+
 }
 
 .profession {
@@ -71,7 +71,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 0.5em;
-    
+
 }
 
 .contact-info ul li,
@@ -95,30 +95,41 @@
     font-weight: bold;
     padding-bottom: 0.5em;
 }
+
 .skills ul li p {
     margin-left: 5%;
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #F2F2F2;
     padding-bottom: 2%;
 }
+
 .skills {
     padding-bottom: 5%;
 }
 
+/*experiencia*/
+
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 5%;
 }
 
-.right-title {
-    color: #eeeeee;
+.about-gap {
+    color: #F2F2F2;
 }
 
-.gap {
-    padding-bottom: 2rem;
+.right-title-sobremim {
+    color: #F26457;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1em;
 }
-.about-me-contents {
-    font-size: 18px;
-    color: #eeeeee;
+
+.right-title-experiencia {
+    color: #F26457;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin-left: 5%;
 }
 
 .experience-contents,
@@ -128,6 +139,16 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
+    margin: 5%;
+    
+}
+
+.right-title-formaçao {
+    color: #F26457;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin-left: 5%;
 }
 
 .exp-company-name,
@@ -135,6 +156,7 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    color: #004A85;
 }
 
 .exp-time-period,
@@ -147,6 +169,7 @@
 .education-subject,
 .awards-name {
     font-size: 25px;
+    color:#004A85;
 }
 
 .exp-desc,
@@ -154,4 +177,9 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+}
+
+.education-desc,
+.exp-desc {
+    border-left: 3px solid #004A85;
 }

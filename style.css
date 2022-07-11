@@ -7,7 +7,7 @@
 
 .resume-contents {
     min-height: 100vh;
-    width: 80%;
+    width: 90%;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -22,7 +22,7 @@
 .right-section {
     grid-column: span 4;
     height: 100%;
-    background-color: #457B9D;
+    background-image:linear-gradient(to left, #F26457, #457B9D) ;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .linha-separaçao {
-    width: 90%;
+    width: 80%;
     border-bottom: 1px solid #F2F2F2;
     margin-left: 5%;
     padding-bottom: 5%;
@@ -42,7 +42,7 @@
     width: 25rem;
     height: 25rem;
     border-radius: 100%;
-    margin: 2.5em;
+    margin: 0.5em;
 }
 
 .name {
@@ -105,20 +105,24 @@
     padding-bottom: 5%;
 }
 
-.right-section-contents {
-    padding: 2rem 2rem;
-}
+
 
 .right-title {
-    color: #eeeeee;
+    font-weight: bold;
+    color: #F26457;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;   
 }
 
-.gap {
-    padding-bottom: 2rem;
-}
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+.about {
+    margin-left: 1rem;
+    color: #F2F2F2;
+    padding-bottom: 5rem;
 }
 
 .experience-contents,
@@ -128,6 +132,12 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
+    margin:  1rem;
+}
+.right-title-exp {
+    color: #F26457;
+    margin-left: 1rem;
+    font-weight: bold;
 }
 
 .exp-company-name,
@@ -147,11 +157,13 @@
 .education-subject,
 .awards-name {
     font-size: 25px;
+    color: #004A85;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
-    padding-left: 5px;
+    padding: 5px;
+    border-left: 3px solid #004A85;
 }
